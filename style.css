@@ -9,6 +9,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: start;
     background-color: rgba(32, 31, 31, 1);
 }
 
@@ -58,4 +59,11 @@ body{
 h3{
     color: wheat;
     display: inline-flex;
+}
+
+body span{
+    position: absolute;
+    margin: 0 0 480px;
+    color: antiquewhite;
+    font-size: 1em;
 }
